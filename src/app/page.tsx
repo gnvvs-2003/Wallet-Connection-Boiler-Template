@@ -1,11 +1,13 @@
 import React from 'react'
 
-import { ConnectButton } from '@rainbow-me/rainbowkit'
+import AirdropForm from '@/components/AirdropForm'
 
 export default function Home() {
   return (
-    <div>
-      <ConnectButton/>
-    </div>
+    <main>
+      <div>
+        <AirdropForm />
+      </div>
+    </main>
   )
 }
